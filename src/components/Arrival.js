@@ -127,6 +127,18 @@ const ProductImage = styled.img`
   display: block;
   height: auto;
   max-height: 260px;
+  @media screen and (max-width: 1700px) {
+    width: 300px;
+  }
+  @media screen and (max-width: 1440px) {
+    width: 250px;
+  }
+  @media screen and (max-width: 1030px) {
+    width: 200px;
+  }
+  @media screen and (max-width: 330px) {
+    width: 190px;
+  }
 `;
 
 const ProductCategory = styled.p`
